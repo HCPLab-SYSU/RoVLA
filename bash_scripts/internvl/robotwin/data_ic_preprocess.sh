@@ -1,0 +1,1 @@
+python ./scripts/lerobot_conversion/generate_task_variants_ray.py --task_path_pattern "/vla/users/luojingzhou/data/datasets/robotwin2_aloha_agilex_clean_lerobotV2 /vla/users/luojingzhou/data/datasets/robotwin2_aloha_agilex_randomized_500_lerobotV2/*/meta/tasks.jsonl"
