@@ -35,13 +35,13 @@
 
 ## 🔍 Overview
 
-RoVLA introduces **multi-consistency constraints** into vision-language-action (VLA) models to significantly improve their robustness and generalization capability in robotic manipulation tasks. Built upon NVIDIA's [GR00T N1.6](https://github.com/NVIDIA/Isaac-GR00T) framework, RoVLA enforces consistency at three levels:
+RoVLA introduces **multi-consistency constraints** into vision-language-action (VLA) models to significantly improve their robustness and generalization capability in robotic manipulation tasks. Built upon NVIDIA's [GR00T N1.6](https://github.com/NVIDIA/Isaac-GR00T/tree/n1.6-release) framework with InternVL-3.5 backbone, RoVLA enforces consistency at three levels:
 
 - **Instructional Consistency (IC)**: Ensures stable action grounding under semantically equivalent instruction rewrites.
 - **Evolutionary Consistency (EC)**: Preserves coherent action intent throughout the flow matching generation process.
 - **Observational Consistency (OC)**: Improves robustness to visual and proprioceptive perturbations via adversarial disturbances.
 
-RoVLA is evaluated on the **LIBERO-Plus** and **RoboTwin 2.0** benchmarks and demonstrates state-of-the-art performance in long-horizon robotic manipulation tasks.
+RoVLA is evaluated on the **LIBERO-Plus** and **RoboTwin 2.0** benchmarks and demonstrates state-of-the-art performance in robotic manipulation tasks.
 
 ---
 
